@@ -17,13 +17,7 @@ weatherApp.controller('weatherPredictor', ['$scope','$http','$q','$timeout',func
 	                      ];
 	var url="";
 	$scope.requiredDate =  new Date();
-	/*$scope.temp = 0;
-	$scope.humidity =0;
-	$scope.rain = 0;
-	$scope.snow = 0;
-	$scope.wind = 0;
-	$scope.fog = 0;*/
-
+	
 	//Method to get the weather conditions on  "Get Weather conditions" button click
 	$scope.getWeatherCondition = function(requiredDate){
 		console.log("getWeatherCondition!! "+requiredDate);
